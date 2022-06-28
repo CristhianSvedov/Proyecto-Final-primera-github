@@ -16,6 +16,7 @@ header {
     top: 0;
     left: 0;
     background-color: hsl(30, 75%, 63%);
+    z-index: 100000;
 }
 
 
@@ -74,7 +75,7 @@ header {
 .contiene__menu {
     width: 100%;
     height: 70px;
-    background: hsl(30, 99%, 51%);
+    background-color: hsl( 28, 1%, 43%);
     padding: 0px 20px;
 }
 
@@ -502,7 +503,27 @@ body {
     height: 100%;
 }
 
-.grid__container, registro > * {
+.cs__texto__carousel h5, .cs__texto__carousel p {
+    color:hsl(44, 42%, 26%);
+    background-color: hsl(30, 88%, 74%);
+}
+
+.cs__sec__carousel {
+    width: 100%;
+    height: 100%;
+}
+
+.cs__img__fixture img {
+    height: 100px;
+    width: 90%;
+}
+
+.cs__img__fixture {
+    background-color: hsl( 28, 1%, 43%);
+    color: white;
+    font-family: 'Bree Serif', serif;
+}
+/*.grid__container, registro > * {
     text-align: center;
     padding: 10px;
     margin-left: 30px;
@@ -581,7 +602,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
+}*/
 
 
 .main h1 {
@@ -602,7 +623,7 @@ body {
     font-weight: 600;
 }
 
-.carousel__fotos img, .registro a img, .tienda img, .pena img{
+/*.carousel__fotos img, .registro a img, .tienda img, .pena img{
     height: 300px;
     margin: 5px;
     padding: 10px;
@@ -775,4 +796,4 @@ body {
 
 .animacion__fondo span:nth-child(6) {
     animation-delay: 2.5s;
-}
+}*/
