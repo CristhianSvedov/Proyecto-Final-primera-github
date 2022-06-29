@@ -425,7 +425,7 @@ nav {
 .footer {
    
     width: 100%;
-    background-color:hsl(30, 99%, 51%);
+    background-color:hsl( 28, 1%, 43%);
     height: 100%;
 }
 .footer__container {
@@ -453,19 +453,21 @@ nav {
 
 .box__footer h2 {
     margin-bottom: 10px;
-    color: hsl(44, 42%, 26%);
+    /*color: hsl(44, 42%, 26%);*/
+    color: white;
     font-weight: 700;
     font-family: 'Bree Serif', serif;
 }
 
 .box__footer a {
     margin-top: 10px;
-    color: hsl(44, 42%, 26%);
+    color: white;
+    
     font-weight: 600;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    font-family: 'Bree Serif', serif;
+    font-family: 'Nunito Sans', sans-serif;
 }
 
 .box__footer a:hover {
@@ -482,12 +484,14 @@ nav {
 
 .box__copy p {
     margin-top: 20px;
-    color: hsl(44, 42%, 26%);
+    /*color: hsl(44, 42%, 26%);*/
+    color: white;
     font-family: 'Bree Serif', serif;
 }
 
 #autor {
     font-weight: 1000;
+    margin-bottom: 0px;
 }
 
 /*CUERPO INDEX*/
@@ -513,15 +517,44 @@ body {
     height: 100%;
 }
 
+
+
 .cs__img__fixture img {
     height: 100px;
     width: 90%;
 }
 
 .cs__img__fixture {
-    background-color: hsl( 28, 1%, 43%);
+    background-color:hsl( 28, 1%, 43%);
     color: white;
     font-family: 'Bree Serif', serif;
+}
+
+.cs__img__noticias {
+    display: flex;
+    align-items: center;
+    font-family: 'Bree Serif', serif;
+    border-right: solid hsl( 28, 1%, 43%);
+}
+
+.cs__img__noticias img {
+    margin: 20px;
+}
+
+.cs__video__noticia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cs__video__noticia > div > video{
+    align-items: center;
+    height: 500px;
+}
+
+.cs__video__noticia h3 {
+    margin-bottom: 10px;
+    color: hsl(44, 42%, 26%)
 }
 /*.grid__container, registro > * {
     text-align: center;
