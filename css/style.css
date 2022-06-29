@@ -505,6 +505,7 @@ body {
     width: 100%;
     margin-top: 210px;
     height: 100%;
+    background-color:  bisque;
 }
 
 .cs__texto__carousel h5, .cs__texto__carousel p {
@@ -556,6 +557,35 @@ body {
     margin-bottom: 10px;
     color: hsl(44, 42%, 26%)
 }
+
+#socio, #nosocio {
+    width: 300px;
+}
+
+.cs__usuario {
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border-bottom: solid 2px hsl( 28, 1%, 43%);
+}
+
+.cs__form1 {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Bree Serif', serif;
+    
+}
+
+.cs__form2 {
+    margin: 30px;
+    font-family: 'Bree Serif', serif;
+    border-bottom: solid 2px hsl( 28, 1%, 43%);
+    padding: 15px;
+}
+
+
+
 /*.grid__container, registro > * {
     text-align: center;
     padding: 10px;
