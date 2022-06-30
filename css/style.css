@@ -298,66 +298,13 @@ nav {
         margin-top: 450px;
     }
 
-    .carousel__fotos img {
-        width: 250px;
-        height: 200px;
-    }
-
-    .calendario .cal__1 {
-        height: 400px;
-        width: 350px;
-    }
-    
-    .calendario .cal__2 {
-        height: 100px;
-        width: 250px;
-    }
-
-    .grid__container .carousel__fotos p, .grid__container .noticia p {
-        font-size: 10px;
-    }
-
-    .grid__container .noticia h3 {
-        font-size: 30px;
-    }
-
-    .noticia .noticia img{
-        width: 500px;
-        height: 200px;
-    }
-
-    .noticia video {
-        height: 250px;
-        width: 150px;
-    }
 
     .whatsapp {
         width: 40px;
         position: fixed;
         bottom: 10px;
         right: 10px;
-    }
-
-    .grid__container {
-        display: grid;
-        gap: 10px;
-        grid-template-areas:
-         "carousel__fotos"
-         "calendario"
-         "noticia";
-    }
-    
-    .registro {
-        display: grid;
-        gap: 10px;
-        grid-template-areas: 
-        "registro__primero"
-        "registro__segundo";
-    }
-
-    #visible {
-        display: none;
-    }
+    } 
 }
 
 /* MENU RESPONSIVE CELULARES*/
@@ -393,31 +340,6 @@ nav {
     main h1 {
         font-size: 50px;
         margin-top: 10px;
-    }
-
-    .grid__container {
-        display: grid;
-        gap: 10px;
-        grid-template-areas:
-         "carousel__fotos"
-         "calendario"
-         "noticia";
-    }
-
-    .registro {
-        display: grid;
-        gap: 10px;
-        grid-template-areas: 
-        "registro__primero"
-        "registro__segundo";
-    }
-    .registro a img {
-        height: 150px;
-    }
-
-    .equipo, .tienda img {
-        width: 250px;
-        
     }
 }
 
@@ -484,7 +406,6 @@ nav {
 
 .box__copy p {
     margin-top: 20px;
-    /*color: hsl(44, 42%, 26%);*/
     color: white;
     font-family: 'Bree Serif', serif;
 }
@@ -584,88 +505,84 @@ body {
     padding: 15px;
 }
 
-
-
-/*.grid__container, registro > * {
-    text-align: center;
-    padding: 10px;
-    margin-left: 30px;
-    margin-right: 30px;
-}
-
-.grid__container {
-    display: grid;
-    gap: 10px;
-    grid-template-areas:
-     "carousel__fotos calendario"
-     "noticia noticia";
-}
-
-.grid__container {
-    width: 100%;
-    height: 100%;
-}
-.registro {
-    display: grid;
-    grid-template-areas: 
-    "registro__primero registro__primero"
-    "registro__segundo registro__segundo";
-    margin: 20px 20px;
-    flex-wrap: wrap;
-    text-align: center;
-    width: 100%;
-    margin-left: 30px;
-    margin-right: 30px;
-    border-bottom: 3px solid hsl(44, 42%, 26%);
-}
-
-.registro__primero {
-    border-bottom: 3px solid hsl(44, 42%, 26%);
-    text-align: center;
-    margin: 100px;
-    padding: 50px;
-    width: 100%;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.carousel__fotos {
-    grid-area: carousel__fotos;
-    background-color:  bisque;
-    border-bottom: 3px solid hsl(44, 42%, 26%);
-    
-}
-
-.calendario {
-    grid-area: calendario;
-    background-color:  bisque;
-    border-bottom: 3px solid hsl(44, 42%, 26%);
-    display: flex;
-    flex-direction: column;
-    
-}
-
-.noticia {
-    grid-area: noticia;
-    background-color:  bisque;
+.cs__historia {
     display: flex;
     flex-direction: column;
     align-items: center;
-}*/
+    border-bottom: solid 2px hsl( 28, 1%, 43%);
+}
+
+.cs__historia img {
+    margin: 15px;
+}
+
+.cs__estadio {
+    align-items: center;
+    justify-content: center;
+    border-bottom: solid 2px hsl( 28, 1%, 43%);
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#estadioArriba {
+    margin-top: 50px;
+}
+
+.cs_estadio img {
+    margin-bottom: 15px;
+}
+
+.cs__plantilla img {
+    width: 300px;
+}
+
+ p {
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+}
+
+.cs__dirigentes {
+    margin-bottom: 50px;
+}
+
+.cs__img__tarjetas img {
+    width: 100px;
+    padding: 15px;
+    border: solid 2px hsl( 28, 1%, 43%);
+}
+
+.cs__img__tarjetas, .cs__img__equipaciones, .cs__mapa {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.cs__img__equipaciones img {
+    padding: 15px;
+    border: solid 2px hsl( 28, 1%, 43%);
+}
+
+.col iframe {
+    border-radius: 50%;
+    height: 300px;
+    padding: 10px;
+}
+
+#cs__dir {
+    margin-top: 35px;
+}
+
+.cs__buscador {
+    margin: 100px auto;
+}
+
+.cs__penas {
+    align-items: center;
+    text-align: center;
+    border-right: solid 2px hsl( 28, 1%, 43%);
+   
+}
+
 
 
 .main h1 {
@@ -686,177 +603,3 @@ body {
     font-weight: 600;
 }
 
-/*.carousel__fotos img, .registro a img, .tienda img, .pena img{
-    height: 300px;
-    margin: 5px;
-    padding: 10px;
-    border: solid 3px  hsl(36, 96%, 55%, 0.836);
-    display: inline;
-}
-
-.equipo {
-    margin: 5px;
-    padding: 10px;
-    border: solid 3px  hsl(36, 96%, 55%, 0.836);
-    height: 500px;
-    margin: 5px;
-    
-    display: inline;
-}
-
-.historia, .plantel, .tienda, .pena {
-    padding: 20px;
-    text-align: center;
-}
-
-.carousel__fotos p, .noticia p, .historia p, .plantel p, .pena p {
-    font-family: 'Kdam Thmor Pro', sans-serif;
-    color:hsl(44, 42%, 26%);
-    font-size: 17px;
-    margin: 20px 0 auto;
-}
-
-.cal__1 {
-    height: 600px;
-    width: 550px;
-    margin: 10px;
-    padding: 10px; 
-    border: solid 3px  hsl(36, 96%, 55%, 0.836); 
-}
-
-.cal__2 {
-    height: 200px;
-    width: 500px;
-    margin: 10px;
-    padding: 10px; 
-    border: solid 3px  hsl(36, 96%, 55%, 0.836);
-}
-
-.noticia img, .registro img {
-    height: 800px;
-    margin: 10px;
-    padding: 10px; 
-    border: solid 3px  hsl(36, 96%, 55%, 0.836);
-}
-
-.login a img {
-    margin: 10px;
-    border: solid 3px  hsl(36, 96%, 55%, 0.836);
-    padding: 10px;
-}
-
-.login__primero {
-    padding-left: 30%;
-    
-}
-
-.login {
-    width: 100%;
-    height: 100%;
-    display: flex;
-}
-
-.noticia h3 {
-    padding: 20px;
-    text-align: center;
-    font-family: 'Bree Serif', serif;
-    color: hsl(44, 42%, 26%);
-    font-size: 40px;
-    font-weight: 500;
-}
-
-.noticia video {
-    height: 500px;
-    width: 300px;
-    margin: 10px;
-    padding: 10px;
-    border: solid 3px  hsl(36, 96%, 55%, 0.836); 
-}
-
-.noticias, .registro {
-    width: 100%;
-    height: 100%;;
-}
-
-
-
-
-.whatsapp {
-    width: 80px;
-    position: fixed;
-    bottom: 10px;
-    right: 10px;
-}
-
-
-
-
-.animacion__fondo {
-    color:  hsl(30, 75%, 63%);
-    font-size: 0;
-    line-height: 1.5;
-    font-family: 'Bree Serif', serif;
-    
-}
-
-.animacion__fondo span {
-    font-size: 2rem;
-    display: inline-block;
-    animation: move 3s ease-in-out infinite;
-}
-
-.animacion__fondo {
-    animation: move2 15s ease-in-out infinite;
-    animation-timing-function: linear;
-    position: relative;
-    animation-direction: alternate;
-}
-
-@keyframes move {
-    0% {
-        transform: translate(-30% 0);
-    }
-    50% {
-        text-shadow: 0 25px 50px rgb(0, 0, 0, 0.75);
-    }
-    100% {
-        transform: translate(30% 0);
-    }
-}
-
-@keyframes move2 {
-    0% {
-        left: 0;
-    }
-    15% {
-        left: 3.5%;
-    }
-    50% {
-        left: 7%;
-    }
-    75% {
-        left: 10.5%;
-    }
-    100% {
-        left: 14%;
-    }
-}
-.animacion__fondo span:nth-child(2) {
-    animation-delay: 0.5s;
-}
-
-.animacion__fondo span:nth-child(3) {
-    animation-delay: 1s;
-}
-
-.animacion__fondo span:nth-child(4) {
-    animation-delay: 1.5s;
-}
-
-.animacion__fondo span:nth-child(5) {
-    animation-delay: 2s;
-}
-
-.animacion__fondo span:nth-child(6) {
-    animation-delay: 2.5s;
-}*/
