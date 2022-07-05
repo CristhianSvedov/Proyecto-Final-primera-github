@@ -14,6 +14,11 @@
     </style>
     <!---->
 
+    <!--Link iconos bootstrap-->
+    <style>
+        @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css");
+    </style>
+
     <!--Fuente Parrafos-->
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;1,200;1,300&display=swap');
@@ -174,46 +179,51 @@
     </main>
 
     
-    <!--LOGO FLOTANTE-->
-    <!-- <div class="flotante">
-        <a href="https://webwhatsapp.com/" target="_blank">
-            <img src="../multimedia/imagenes/Redes/whatsapp.png" alt="logo whatsapp" class="whatsapp">
-        </a>
-    </div>-->    
-<!--FIN LOGO FLOTANTE-->
-
+   <!--LOGO FLOTANTE-->
+   <div class="flotante">
+    <a href="https://webwhatsapp.com/" target="_blank">
+        <img src="../multimedia/imagenes/Redes/whatsapp.png" alt="logo whatsapp" class="whatsapp">
+    </a>
+</div> 
 <!--FOOTER-->
 <footer class="footer">
     <div class="footer__container">
         <div class="box__footer">
             <h2>Redes Sociales</h2>
-            <a href="https://www.instagram.com/saltofcoficial/" target="_blank">
-                <img src="../multimedia/imagenes/Redes/instagram.png" alt="logo instagram"> Instagram
+            <a href="https://www.instagram.com/saltofcoficial/" target="_blank" class="link">
+              <i class="bi bi-instagram"></i>
             </a>
-            <a href="https://es-la.facebook.com/" target="_blank">
-                <img src="../multimedia/imagenes/Redes/facebook.png" alt="logo facebook"> facebook
+            <a href="https://es-la.facebook.com/" target="_blank" class="link">
+                <i class="bi bi-facebook"></i>
+       
             </a>
-            <a href="https://twitter.com/" target="_blank">
-                <img src="../multimedia/imagenes/Redes/gorjeo.png" alt="logo twitter"> Twitter
+            <a href="https://twitter.com/" target="_blank"  class="link">
+              <i class="bi bi-twitter"></i>
             </a>
         </div>
 
-        <div class="box__footer">
+        <div class="box__footer" id="visible">
             <h2>Secciones</h2>
-            <a href="registrar.html">Registrar</a>
-            <a href="login.html">Login</a>
-            <a href="elclub.html">El Club</a>
-            <a href="../index.html#noticia">Noticias</a>
-            <a href="tienda.html">Tienda</a>
-            <a href="penas.html">Peña</a>
+            <a href="pages/registrar.html">Registrar</a>
+            <a href="pages/login.html">Login</a>
+            <a href="pages/elclub.html">El Club</a>
+            <a href="index.html#noticia">Noticias</a>
+            <a href="pages/tienda.html">Tienda</a>
+            <a href="pages/penas.html">Peña</a>
             
         </div>
         
         <div class="box__footer">
             <h2>Sponsors</h2>
+            <a href="#" class="link">
             <img src="../multimedia/imagenes/Sponsors/elrevoltijo1.jpg" alt="logo el revoltijo">
+            </a>
+            <a href="#" class="link">
             <img src="../multimedia/imagenes/Sponsors/elite1.jpg" alt="logo elite">
+            </a>
+            <a href="#" class="link">
             <img src="../multimedia/imagenes/Sponsors/villaespania1.jpg" alt="logo villa espania">
+          </a>
         </div>
     </div>
     
@@ -223,7 +233,6 @@
         <p id="autor">Cristhian Svedov</p>
     </div>
 </footer>
-<!--FIN FOOTER-->
 
 <!--Link Bootstrap-->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
