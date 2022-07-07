@@ -1,0 +1,39 @@
+.cs__historia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: solid 2px hsl( 28, 1%, 43%);
+}
+
+.cs__historia img {
+    margin: 15px;
+}
+
+.cs__estadio {
+    align-items: center;
+    justify-content: center;
+    border-bottom: solid 2px hsl( 28, 1%, 43%);
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#estadioArriba {
+    margin-top: 50px;
+}
+
+.cs_estadio img {
+    margin-bottom: 15px;
+}
+
+.cs__plantilla img {
+    width: 300px;
+}
+
+ p {
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+}
+
+.cs__dirigentes {
+    margin-bottom: 50px;
+}

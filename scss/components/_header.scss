@@ -1,0 +1,232 @@
+.header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: hsl(30, 75%, 63%);
+    z-index: 100000;
+
+    .header__naranjaclaro {
+        max-width: 1600px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px;
+    
+        .naranjaclaro__logo a img {
+            width: 100px;
+        }
+        
+        .naranjaclaro__logo a {
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            
+            .naranjaclaro__titulo{
+                display: flex;
+                flex-direction: column;  
+            }
+
+        }
+
+        .naranjaclaro__titulo .t1 {
+            font-family: 'Anton', sans-serif;
+            font-size: 40px;
+            color: white;
+        }
+
+        .naranjaclaro__titulo .t2 {
+            font-family: $main-fonts-titulo;
+            font-size: 20px;
+            color: white;
+        }
+
+        .naranjaclaro__sponsors a img {
+            width: 100px;
+            height: 100px;
+            padding: 10px;
+        }
+        
+        .naranjaclaro__buscar input {
+            width: 300px;
+            padding: 10px;
+        }
+
+    }
+    
+    .contiene__menu {
+        width: 100%;
+        height: 70px;
+        background-color: hsl( 28, 1%, 43%);
+        padding: 0px 20px;
+
+        .menu {
+            /*max-width: 1600px;*/
+            width: 100%;
+            margin: auto;
+            height: 100%;
+        }
+
+
+        nav {
+            height: 100%;
+        }
+        
+        .menu__nav__ul {
+            height: 100%;
+            display: flex;
+            position: auto;
+        }
+        
+        .menu__nav__ul__li {
+            height: 100%;
+            list-style: none;
+            position: relative;
+        }
+        
+        .menu__nav__ul__li a {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            color: white;
+            align-items: center;
+            padding: 14px 50px;
+            text-transform: uppercase;
+            font-family: 'Kdam Thmor Pro', sans-serif;
+            font-size: 14px;
+            transition: all 300ms ease;
+            text-decoration: none;
+        }
+        
+        .menu__nav__ul__li a:hover {
+            transform: scale (1.1);
+            /*background:hsl(30, 88%, 74%);*/
+            background: linear-gradient(to bottom,  hsl(30, 75%, 63%), #746470);
+            box-shadow: 0px 0px 60px 0px rgba(0,0,0,0.5);
+            font-size: 16px;
+        }
+        
+        /*ICONO EN EL NAV*/
+        .menu__nav .menu__nav__ul .menu__nav__ul__li:first-child a {
+            background-image: url(../multimedia/imagenes/Escudo_Salto_FC.png);
+            background-size: 50px;
+            background-repeat: no-repeat;
+            background-position: center;
+            padding: 2px 50px;
+        }
+        
+        .menu__nav__ul__li:first-child:hover {
+            background-image: url(../multimedia/imagenes/Escudo_Salto_FC.png);
+            background-size: 50px;
+            background-repeat: no-repeat;
+            background-position: center center;
+            padding: 2px 2px;
+        }
+        
+        .selected {
+            transform: scale(1.1);
+            background-color: hsl(30, 88%, 74%);
+            box-shadow: 0px 0px 60px 0px rgba(0,0,0,0.5);
+        }
+        
+        .nav__elclub {
+            width: 200px;
+            display: flex;
+            flex-direction: column;
+            background-color: white;
+            position: absolute;
+            top: 90px;
+            left: -5px;
+            padding: 14px 0px;
+            visibility: hidden;
+            opacity: 0;
+            box-shadow: 0px 0px 60px 0px rgba(0,0,0,0.5);
+            z-index: 10;
+            transition: all 300ms ease;
+        }
+        
+        .menu__nav .menu__nav__ul .menu__nav__ul__li:hover .nav__elclub {
+            visibility: visible;
+            opacity: 1;
+            top: 70px;
+        }
+        
+        .menu__nav .menu__nav__ul .menu__nav__ul__li .nav__elclub:before {
+            content: "";
+            width: 0;
+            height: 0;
+            border-left: 12px solid transparent;
+            border-right: 12px solid transparent;
+            border-bottom: 12px solid white;
+            position: absolute;
+            top: -12px;
+            left: 20px;
+        }
+        
+        .nav__elclub__li a {
+            display: block;
+            color: $main-titulo;
+            padding: 6px;
+            padding-left: 14px;
+            margin-top: 10px;
+            font-size: 14px;
+            text-transform: uppercase;
+            transition: all 300ms ease;
+        }
+        
+        .nav__elclub__li a:hover {
+            background-color:$main-titulo;
+            color: white;
+            transform: scale(1.1);
+            padding-left: 30px;
+            font-size: 14px;
+            box-shadow: 0px 0px 60px 0px rgba(0,0,0,0.5);
+        }
+        
+        .nav__elclub__li {
+            list-style: none;
+        }
+        
+        /*ELEMENTOS RESPONSIV*/
+        .icon__menu {
+            font-size: 26px;
+            color: white;
+            cursor: pointer;
+            width: 40px;
+            height: 100%;
+            display: none;
+            align-items: center;
+        }
+        
+        #label__check {
+            width: 26px;
+            height: 100%;
+            display: none;
+        }
+        
+        #check__menu {
+            display: none;
+        }
+        
+
+
+
+
+
+    }
+    
+
+}
+
+
+
+/*MENU FIJO*/
+
+/*MENU NAV*/
+
+
+
+
+
+

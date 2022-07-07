@@ -1,0 +1,52 @@
+.cs__texto__carousel h5, .cs__texto__carousel p {
+    color:hsl(44, 42%, 26%);
+    background-color: hsl(30, 88%, 74%);
+}
+
+.cs__sec__carousel {
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-inner {
+    max-height: 650px;
+    margin-bottom: 30px;
+}
+
+.cs__img__fixture img {
+    height: 100px;
+    width: 90%;
+}
+
+.cs__img__fixture {
+    background-color:hsl( 28, 1%, 43%);
+    color: white;
+    font-family: 'Bree Serif', serif;
+}
+
+.cs__img__noticias {
+    display: flex;
+    align-items: center;
+    font-family: 'Bree Serif', serif;
+    border-right: solid hsl( 28, 1%, 43%);
+}
+
+.cs__img__noticias img {
+    margin: 20px;
+}
+
+.cs__video__noticia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cs__video__noticia > div > video{
+    align-items: center;
+    height: 500px;
+}
+
+.cs__video__noticia h3 {
+    margin-bottom: 10px;
+    color: hsl(44, 42%, 26%)
+}

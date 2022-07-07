@@ -1,0 +1,145 @@
+/* MENU RESPONSIVE TABLET*/
+@media only screen and (max-width:1200px) {
+    .naranjaclaro__buscar input {
+        display: none;
+    }
+
+    .header__naranjaclaro {
+        padding: 5px;
+    }
+
+    .naranjaclaro__logo a img {
+        width: 75px;
+    }
+
+    .naranjaclaro__titulo .t1 {
+        font-size: 30px;
+    }
+
+    .naranjaclaro__titulo .t2 {
+        font-size: 10px;
+    }
+
+   .naranjaclaro__sponsors a img {
+    width: 75px;
+    height: 75px;
+   }
+
+   .menu__nav__ul {
+    flex-direction: column;
+    background-color: hsl(44, 42%, 26%);
+    /*position: fixed;*/
+    left: 0;
+    top: 158px;
+    width: 100%;
+    height: 350px;
+    transition: all 300ms ease;
+    z-index: 100;
+   }
+
+   .menu__nav {
+    width: 100%;
+   }
+
+    .menu__nav__ul__li a:hover {
+        transform: scale(1);
+    }
+
+    .nav__elclub {
+        left: 150px;
+        width: 100%;
+    }
+
+    .menu__nav__ul__li {
+        width: 100%;
+    }
+
+    .menu__nav .menu__nav__ul .menu__nav__ul__li:hover .nav__elclub {
+        top: 63px;
+    }
+
+    .menu__nav__ul__li:first-child a {
+        background-position: 20 px;
+    }
+
+  
+    .main .tit {
+        font-size: 30px;
+    }
+
+    main h1 {
+        font-size: 50px;
+        margin-top: 450px;
+    }
+
+    .cs__img__tarjetas, .cs__tienda {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cs__img__noticias img {
+        width: 200px;
+    }
+
+
+    .whatsapp {
+        width: 40px;
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+    } 
+}
+
+/* MENU RESPONSIVE CELULARES*/
+@media only screen and (max-width:768px) {
+    #label__check {
+        display: block;
+    }
+
+    .icon__menu {
+        display: flex;
+    }
+
+    #check__menu:checked ~ nav > ul {
+        height: 400px;
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .menu__nav__ul {
+        flex-direction: column;
+        background-color: $main-titulo;
+        position: fixed;
+        left: 0;
+        top: 158px;
+        width: 100%;
+        height: 0;
+        transition: all 300ms ease;
+        z-index: 100;
+        visibility: hidden;
+        opacity: 0;
+    }
+
+    #noticia{
+        font-size: 30px;
+    }
+
+    #tit__infoNoticia {
+        font-size: 20px;
+    }
+    
+    .container-fluid p {
+        font-size: 10px;
+    }
+
+    main h1 {
+        font-size: 10px;
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width:1600px) {
+    .cs__img__noticias {
+        flex-direction: column;
+    }
+}
